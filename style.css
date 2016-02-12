@@ -1,0 +1,18 @@
+body {
+  font-family: 'Roboto Condensed', monospace, sans-serif;
+  margin: 30px;
+}
+
+li {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+#instructions {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#styleSearch {
+  margin-top: -50px;
+}
