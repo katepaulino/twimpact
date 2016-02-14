@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Condensed', monospace, sans-serif;
+  font-family: 'Oxygen', monospace, sans-serif;
   margin: 30px;
 }
 
@@ -13,6 +13,32 @@ li {
   font-size: 16px;
 }
 
+#searchBox {
+  font-size: 14px;
+}
+
 #styleSearch {
+  font-family: Courier;
   margin-top: -50px;
+}
+
+.myButton {
+	background-color: #000000;
+	border-radius: 15px;
+  border-size: 0px;
+  border-color: #ffffff;
+  border-style: none;
+	color: #ffffff;
+	font-family: 'Oxygen';
+	font-size: 14px;
+	padding: 10px 25px;
+}
+
+.myButton:hover {
+	background-color: #5cbf2a;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
 }
