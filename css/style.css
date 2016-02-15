@@ -3,42 +3,27 @@ body {
   margin: 30px;
 }
 
-li {
-  margin-left: 20px;
-  font-size: 16px;
+.billLogo {
+  margin-top: 40px;
 }
 
-#instructions {
-  margin-bottom: 20px;
-  font-size: 16px;
+#underH1 {
+  margin-top: -20px;
 }
 
-#searchBox {
-  font-size: 14px;
+#bpLogo {
+  float: right;
+  margin-top: -80px;
 }
 
-#styleSearch {
-  font-family: Courier;
-  margin-top: -50px;
+#div_1 {
+  float: right;
+  margin-top: -625px;
+  margin-right: 550px;
 }
 
-.myButton {
-	background-color: #000000;
-	border-radius: 15px;
-  border-size: 0px;
-  border-color: #ffffff;
-  border-style: none;
-	color: #ffffff;
-	font-family: 'Oxygen';
-	font-size: 14px;
-	padding: 10px 25px;
-}
-
-.myButton:hover {
-	background-color: #5cbf2a;
-}
-
-.myButton:active {
-	position: relative;
-	top: 1px;
+#div_2 {
+  float: right;
+  margin-top: -625px;
+  margin-right: 550px;
 }
