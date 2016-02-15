@@ -3,42 +3,58 @@ body {
   margin: 30px;
 }
 
-li {
-  margin-left: 20px;
-  font-size: 16px;
+.animated.slideInRight {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.billLogo {
+  margin-top: 50px;
 }
 
-#instructions {
-  margin-bottom: 20px;
-  font-size: 16px;
+.description {
+  margin-left: 250px;
+  margin-right: -300px;
 }
 
-#searchBox {
-  font-size: 14px;
+.getInvolved {
+  margin-top: 100px;
 }
 
-#styleSearch {
-  font-family: Courier;
-  margin-top: -50px;
+#underH1 {
+  margin-top: -20px;
 }
 
-.myButton {
-	background-color: #000000;
-	border-radius: 15px;
-  border-size: 0px;
-  border-color: #ffffff;
-  border-style: none;
-	color: #ffffff;
-	font-family: 'Oxygen';
-	font-size: 14px;
-	padding: 10px 25px;
+#bpLogo {
+  float: right;
+  margin-top: -80px;
 }
 
-.myButton:hover {
-	background-color: #5cbf2a;
+#div_1 {
+  float: right;
+  margin-top: -625px;
+  margin-right: 500px;
 }
 
-.myButton:active {
-	position: relative;
-	top: 1px;
+#div_2 {
+  float: right;
+  margin-top: -625px;
+  margin-right: 650px;
+}
+
+#div_3 {
+  float: right;
+  margin-top: -625px;
+  margin-right: 400px;
+}
+
+#div_4 {
+  float: right;
+  margin-top: -625px;
+  margin-right: 620px;
+}
+
+#div_5 {
+  float: right;
+  margin-top: -625px;
+  margin-right: 500px;
 }
