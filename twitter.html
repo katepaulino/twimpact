@@ -6,6 +6,9 @@
   </head>
   <body>
 
+    <button id="emailSubmit">Email!!!</button>
+
+
     <a href="http://twitter.com/home?status=Hi Here is my Tweet @danielxli!">Tweet tweet</a>
 
     <a class="twitter-timeline" href="https://twitter.com/borgenproject" data-widget-id="699017718268186624">Tweets by @borgenproject</a>
@@ -19,7 +22,13 @@
         js=d.createElement(s);js.id=id;
         js.src=p+"://platform.twitter.com/widgets.js";
         fjs.parentNode.insertBefore(js,fjs);}
-      }(document,"script","twitter-wjs");</script>
+      }(document,"script","twitter-wjs");
+
+    document.getElementById('emailSubmit').addEventListener('click', sendMail);
+
+    function sendMail () {
+      window.location.href = 'mailto:test@example.com?subject=subject&body=body';
+    }
 
     </script>
   </body>
