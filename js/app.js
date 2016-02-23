@@ -33,8 +33,8 @@ window.onload = function() {
   hideAllExcept('');
   activateSelectorButtons();
 
-  updateTweetLink('#tweet-reach', "@twitterrecipient", ", please support hungry kids!");
-  updateMailLink('#email-reach', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
+  updateTweetLink('#tweet-reach', "@twitterrecipient", ", please cosponsor the Reach Every Mother and Child Act");
+  updateMailLink('#email-reach', 'test@twimpacttest.com', 'Support this bill!', 'Dear, so and so')
   updateFacebookLink('#fb-reach', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
 };
 
