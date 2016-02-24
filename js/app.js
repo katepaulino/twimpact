@@ -33,9 +33,31 @@ window.onload = function() {
   hideAllExcept('');
   activateSelectorButtons();
 
-  updateTweetLink('#tweet-reach', "@twitterrecipient", ", please support hungry kids!");
-  updateMailLink('#email-reach', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
-  updateFacebookLink('#fb-reach', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+  //Reach Every Mother and Child Act
+  updateTweetLink('#tweet-div_1', "@twitterrecipient", ", please support hungry kids!");
+  updateMailLink('#email-div_1', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
+  updateFacebookLink('#fb-div_1', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+
+  //Global Food Security Act
+  updateTweetLink('#tweet-div_2', "@twitterrecipient", ", please support hungry kids!");
+  updateMailLink('#email-div_2', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
+  updateFacebookLink('#fb-div_2', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+
+  //Foreign Aid Transparency and Accountability Act
+  updateTweetLink('#tweet-div_3', "@twitterrecipient", ", please support hungry kids!");
+  updateMailLink('#email-div_3', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
+  updateFacebookLink('#fb-div_3', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+
+  //Food For Peace Reform Act
+  updateTweetLink('#tweet-div_4', "@twitterrecipient", ", please support hungry kids!");
+  updateMailLink('#email-div_4', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
+  updateFacebookLink('#fb-div_4', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+
+  //M-Core Act
+  updateTweetLink('#tweet-div_5', "@twitterrecipient", ", please support hungry kids!");
+  updateMailLink('#email-div_5', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
+  updateFacebookLink('#fb-div_5', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+
 };
 
 
