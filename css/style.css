@@ -102,28 +102,33 @@ body {
   float: right;
   margin-top: -625px;
   margin-right: 500px;
+  display: none;
 }
 
 #div_2 {
   float: right;
   margin-top: -625px;
   margin-right: 650px;
+  diplay: none;
 }
 
 #div_3 {
   float: right;
   margin-top: -625px;
-  margin-right: 400px;
+  margin-right: 450px;
+  display: none;
 }
 
 #div_4 {
   float: right;
   margin-top: -625px;
   margin-right: 620px;
+  display: none;
 }
 
 #div_5 {
   float: right;
   margin-top: -625px;
   margin-right: 500px;
+  display: none;
 }
