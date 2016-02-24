@@ -57,9 +57,7 @@ window.onload = function() {
   updateTweetLink('#tweet-div_5', "@twitterrecipient", ", please support hungry kids!");
   updateMailLink('#email-div_5', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
   updateFacebookLink('#fb-div_5', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
-
 };
-
 
 function updateTweetLink(iconId, recipient, message) {
   var fullMessage = "http://twitter.com/home?status=" + "hello, " + recipient + message;
