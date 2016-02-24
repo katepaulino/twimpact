@@ -4,14 +4,17 @@ var repName = [];
 var repTitle = [];
 var repTwitterHandle = [];
 var yourRepArray = [];
-var tweetTheseReps = 0;
+var checkBoxArray = [];
+var tweetTheseReps = [];
 
 var findRep = document.getElementById("findRep");
-findRep.addEventListener("submit",function(event){
+findRep.addEventListener("submit", function(){
   event.preventDefault();
   zip = event.target.inputZip.value;
   listYourReps();
   printTwitterHandle();
+  var getReps = document.getElementsByClassName("check");
+  console.log(getReps);
 });
 
 function listYourReps () {
@@ -25,16 +28,22 @@ function listYourReps () {
     repName.push(xhrParse.results[i].first_name + " " + xhrParse.results[i].last_name);
     repTitle.push(xhrParse.results[i].title);
     repTwitterHandle.push("@" + xhrParse.results[i].twitter_id);
+    var checkBox = document.createElement("input");
+    checkBox.type = "checkbox";
+    checkBox.className = "check";
+    checkBox.id = i;
+    checkBoxArray.push(checkBox);
   };
   for (var i = 0; i < repName.length; i++) {
-    new YourRep (repName[i],repTitle[i],repTwitterHandle[i]);
+    new YourRep (repName[i],repTitle[i],repTwitterHandle[i],checkBoxArray[i]);
   };
 };
 
-function YourRep (repName, repTitle, repTwitterHandle) {
+function YourRep (repName, repTitle, repTwitterHandle,checkBox)  {
   this.repName = repName;
   this.repTitle = repTitle;
   this.repTwitterHandle = repTwitterHandle;
+  this.checkBox = checkBox;
   this.selector = 0;
   yourRepArray.push(this);
 };
@@ -60,25 +69,19 @@ function printTwitterHandle () {
     var cellText3 = document.createTextNode(yourRepArray[i].repTitle);
     var cell4 = document.createElement("td");
     var cellText4 = document.createTextNode(yourRepArray[i].repTwitterHandle);
-    var checkBox = document.createElement("input");
-    checkBox.type = "checkbox";
-    checkBox.id = "chooseThisRep";
+    var cell5 = document.createElement("td");
+    var cellText5 = yourRepArray[i].checkBox;
     cell2.appendChild(cellText2);
     row2.appendChild(cell2);
     cell3.appendChild(cellText3);
     row2.appendChild(cell3);
     cell4.appendChild(cellText4);
     row2.appendChild(cell4);
-    row2.appendChild(checkBox);
+    cell5.appendChild(cellText5);
+    row2.appendChild(cell5);
     tableBody.appendChild(row2);
     tableEl.appendChild(tableBody);
-  }
+  };
   document.getElementById("table").appendChild(tableEl);
+  console.log("added");
 };
-
-// var selectRep = document.getElementById("chooseThisRep");
-// selectRep.addEventListener("click",function(event){
-//   event.preventDefault();
-//   tweetTheseReps = "hello";
-//   console.log(tweetTheseReps);
-// });
