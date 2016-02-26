@@ -34,29 +34,24 @@ window.onload = function() {
   activateSelectorButtons();
 
   //Reach Every Mother and Child Act
-  updateTweetLink('#tweet-div_1', "@twitterrecipient", ", plz support the Reach Every Mother and Child Act! http://bit.ly/reachbp");
-  updateMailLink('#email-div_1', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
-  updateFacebookLink('#fb-div_1', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+  updateTweetLink('#tweet-div_1', "@twitterrecipient", ", plz support the Reach Every Mother and Child Act! http://bit.ly/21vrpbN");
+  updateFacebookLink('#fb-div_1', 'https://www.congress.gov/bill/114th-congress/senate-bill/1911');
 
   //Global Food Security Act
   updateTweetLink('#tweet-div_2', "@twitterrecipient", ", plz support the Global Food Security Act! http://bit.ly/1SSyNfP");
-  updateMailLink('#email-div_2', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
-  updateFacebookLink('#fb-div_2', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+  updateFacebookLink('#fb-div_2', 'https://www.congress.gov/bill/114th-congress/house-bill/1567');
 
   //Foreign Aid Transparency and Accountability Act
   updateTweetLink('#tweet-div_3', "@twitterrecipient", ", please support the Foreign Aid Transparency Act! http://bit.ly/fataabp");
-  updateMailLink('#email-div_3', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
-  updateFacebookLink('#fb-div_3', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+  updateFacebookLink('#fb-div_3', 'https://www.congress.gov/bill/114th-congress/senate-bill/2184');
 
   //Food For Peace Reform Act
   updateTweetLink('#tweet-div_4', "@twitterrecipient", ", plz support the Food For Peace Reform Act! http://bit.ly/foodbp");
-  updateMailLink('#email-div_4', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
-  updateFacebookLink('#fb-div_4', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+  updateFacebookLink('#fb-div_4', 'https://www.congress.gov/bill/114th-congress/senate-bill/525');
 
   //M-Core Act
-  updateTweetLink('#tweet-div_5', "@twitterrecipient", ", please the M-Core Act! http://bit.ly/mcorebp");
-  updateMailLink('#email-div_5', 'test@twimpacttest.com', 'Support this bill!', 'Dearest senator, you\'re the best, Dan')
-  updateFacebookLink('#fb-div_5', 'http%3A%2F%2Fwww.congress.gov%2Fbill%2F114th%2Dcongress%2Fsenate%2Dbill%2F1911');
+  updateTweetLink('#tweet-div_5', "@twitterrecipient", ", please the M-Core Act! http://bit.ly/1TaU9ph");
+  updateFacebookLink('#fb-div_5', 'https://www.congress.gov/bill/114th-congress/senate-bill/1605');
 
   document.addEventListener("click", function() {
     if (event.target.className === "hvr-pulse-grow" && event.target.id.indexOf('tweet') >= 0) {
@@ -80,18 +75,10 @@ function updateTweetLink(iconId, recipient, message) {
   $(iconId).wrap("<a href=" + "'" + fullMessage + "'></a>'");
 }
 
-function updateMailLink(iconId, recipient, subject, body) {
-  $(iconId).wrap("<a href=#></a>");
-  $(iconId).click(function() {
-    window.location.href = 'mailto:'+recipient+'?subject='+subject+'&body='+body;
-  })
-}
-
 function updateFacebookLink(iconId, link) {
   var fullLink = "http://www.facebook.com/sharer.php?src=sp&u=" + link;
   $(iconId).wrap("<a href=" + fullLink + "></a>")
 }
-
 
 var zip = 0;
 var xhrParse = 0;
@@ -100,7 +87,6 @@ var repTitle = [];
 var repTwitterHandle = [];
 var yourRepArray = [];
 var tweetTheseReps = [];
-
 
 function listYourReps () {
   var xhr = new XMLHttpRequest();
