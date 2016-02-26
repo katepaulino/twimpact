@@ -1,6 +1,38 @@
 body {
-  font-family: 'Oxygen', monospace, sans-serif;
-  margin: 30px;
+  font-family: 'Special Elite', monospace, sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  color: #000000;
+  margin: auto;
+  padding: 5px;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .animated.slideInRight {
@@ -37,18 +69,19 @@ body {
   animation-name: zoomIn;
 }
 
-
 .billLogo {
-  margin-top: 50px;
+  width: 100%;
+  margin-left: 100px;
 }
 
 .description {
-  margin-left: 250px;
-  margin-right: -300px;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-right: 100px;
 }
 
 .getInvolved {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* Pulse Grow */
@@ -90,44 +123,35 @@ body {
 }
 
 #underH1 {
-  margin-top: -20px;
-}
-
-#bpLogo {
-  float: right;
-  margin-top: -80px;
+  text-align: center;
+  margin-top: -15px;
 }
 
 #div_1 {
-  float: right;
-  margin-top: -625px;
-  margin-right: 500px;
+  margin-top: 200px;
+  width: 700px;
   display: none;
 }
 
 #div_2 {
-  float: right;
   margin-top: -625px;
   margin-right: 500px;
   diplay: none;
 }
 
 #div_3 {
-  float: right;
   margin-top: -625px;
   margin-right: 500px;
   display: none;
 }
 
 #div_4 {
-  float: right;
   margin-top: -625px;
   margin-right: 620px;
   display: none;
 }
 
 #div_5 {
-  float: right;
   margin-top: -625px;
   margin-right: 500px;
   display: none;
