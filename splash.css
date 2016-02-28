@@ -1,7 +1,6 @@
-body {
-  background-color: #12303a;
-  font-family: 'Special Elite';
-  color: #ffffff;
+html {
+  font-family: 'Special Elite', monospace, sans-serif;
+  display: block;
 }
 
 span {
