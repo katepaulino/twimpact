@@ -1,4 +1,4 @@
-var divEls = ['#div_1', '#div_2', '#div_3', '#div_4', '#div_5'];
+var divEls = ['#click', '#div_1', '#div_2', '#div_3', '#div_4', '#div_5'];
 var ahrefEl;
 
 function hideAllExcept(divId) {
@@ -30,7 +30,7 @@ function activateSelectorButtons() {
 }
 
 window.onload = function() {
-  hideAllExcept('');
+  hideAllExcept('#click');
   activateSelectorButtons();
 
   //Reach Every Mother and Child Act

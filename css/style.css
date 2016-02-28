@@ -12,6 +12,7 @@ header {
 }
 
 #click {
+  display: inline;
   font-family: 'Rock Salt';
   font-size: 30px;
   margin-top: 200px;
@@ -20,13 +21,14 @@ header {
 }
 
 #arrow {
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+  font-weight: lighter;
 }
 
 .header-img {
