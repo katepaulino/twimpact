@@ -7,6 +7,10 @@ span {
   font-size: 60px;
 }
 
+body {
+  min-width: 500px;
+}
+
 #title {
   margin-top: 200px;
   margin-left: 400px;

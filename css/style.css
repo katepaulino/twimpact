@@ -30,9 +30,13 @@ a:hover {
 a:active {
   color: #000000;
   text-decoration: none;
-
 }
 
+#about {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 
 #click {
   display: inline;
