@@ -10,7 +10,7 @@ Code Fellows Code 201 Final Project, February 2016
   - As a user, I want to connect my Twitter account and have my zip code and representation automatically pull in
   - As a user, I want to find my representatives by entering my zip code so I can tweet to them about one or more of the issues I care about
   - As a user, I want to click on a button to post to social media
-  - As a user, I want to connect my Facebook account so I can post about key bills to create awareness
+  - As a user, I want to connect my Facebook account so I can post about key bills
 
 ## Developer Story
   - As a developer, I want to create a simple webpage to showcase the five Borgen Project key bills so the user can learn about them
