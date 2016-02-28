@@ -1,6 +1,9 @@
 var divEls = ['#click', '#div_1', '#div_2', '#div_3', '#div_4', '#div_5'];
 var ahrefEl;
 
+var imgIds = ['#reach', '#globalFood', '#transparency', '#reform', '#core'];
+var imgUrls = ['img/reach-every-mother-and-child-act', 'img/global-food-security-act', 'img/foreign-aid-and-transparency-act', 'img/food-for-peace-reform-act', 'img/M-Core-Act'];
+
 function hideAllExcept(divId) {
   for (el in divEls) {
     if (divEls[el] === divId) {
@@ -11,21 +14,36 @@ function hideAllExcept(divId) {
   }
 }
 
+function setImages(divId) {
+  for (i in imgIds) {
+    if (imgIds[i] === divId) {
+      $(imgIds[i]).attr("src", imgUrls[i]+"-selected.jpg")
+    } else {
+    $(imgIds[i]).attr("src", imgUrls[i]+".jpg")
+    }
+  }
+}
+
 function activateSelectorButtons() {
   $('#reach').click(function(){
     hideAllExcept('#div_1');
+    setImages('#reach');
   });
   $('#globalFood').click(function(){
     hideAllExcept('#div_2');
+    setImages('#globalFood');
   });
   $('#transparency').click(function(){
     hideAllExcept('#div_3');
+    setImages('#transparency');
   });
   $('#reform').click(function(){
     hideAllExcept('#div_4');
+    setImages('#reform');
   });
   $('#core').click(function(){
     hideAllExcept('#div_5');
+    setImages('#core');
   });
 }
 
@@ -68,7 +86,6 @@ window.onload = function() {
     }
   });
 }
-
 
 function updateTweetLink(iconId, recipient, message) {
   var fullMessage = "http://twitter.com/home?status=" + "" + recipient + message;
