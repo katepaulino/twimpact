@@ -60,7 +60,7 @@ window.onload = function() {
   updateFacebookLink('#fb-div_2', 'https://www.congress.gov/bill/114th-congress/house-bill/1567');
 
   //Foreign Aid Transparency and Accountability Act
-  updateTweetLink('#tweet-div_3', "@twitterrecipient", ", please support the Foreign Aid Transparency Act! http://bit.ly/fataabp");
+  updateTweetLink('#tweet-div_3', "@twitterrecipient", ", plz support the Foreign Aid Transparency Act! http://bit.ly/fataabp");
   updateFacebookLink('#fb-div_3', 'https://www.congress.gov/bill/114th-congress/senate-bill/2184');
 
   //Food For Peace Reform Act
@@ -68,7 +68,7 @@ window.onload = function() {
   updateFacebookLink('#fb-div_4', 'https://www.congress.gov/bill/114th-congress/senate-bill/525');
 
   //M-Core Act
-  updateTweetLink('#tweet-div_5', "@twitterrecipient", ", please the M-Core Act! http://bit.ly/1TaU9ph");
+  updateTweetLink('#tweet-div_5', "@twitterrecipient", ", plz the M-Core Act! http://bit.ly/1TaU9ph");
   updateFacebookLink('#fb-div_5', 'https://www.congress.gov/bill/114th-congress/senate-bill/1605');
 
   document.addEventListener("click", function() {
