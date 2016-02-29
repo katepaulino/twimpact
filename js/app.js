@@ -68,7 +68,7 @@ window.onload = function() {
   updateFacebookLink('#fb-div_4', 'https://www.congress.gov/bill/114th-congress/senate-bill/525');
 
   //M-Core Act
-  updateTweetLink('#tweet-div_5', "@twitterrecipient", ", plz the M-Core Act! http://bit.ly/1TaU9ph");
+  updateTweetLink('#tweet-div_5', "@twitterrecipient", ", plz support the M-Core Act! http://bit.ly/1TaU9ph");
   updateFacebookLink('#fb-div_5', 'https://www.congress.gov/bill/114th-congress/senate-bill/1605');
 
   document.addEventListener("click", function() {
